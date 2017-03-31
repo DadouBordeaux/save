@@ -1,0 +1,21 @@
+<h1>Masquer la liste de cars</h1>
+<input type="checkbox" ng-model="showLink">
+
+
+
+<div ng-show="!showLink">
+
+    <h2>List of cars</h2>
+    <ul ng-repeat="car in $ctrl.cars">
+        <li>Name : {{car.Name}}</li>
+        <li>Color : {{car.Color}}</li>
+        <li>Price : {{car.Price}} $</li>
+        <p>Select this car <input type="checkbox" /></p>
+    </ul>
+
+</div>
+
+
+<div>
+    
+</div>

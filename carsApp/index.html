@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular</title>
+	<script type="text/javascript" src="https://code.angularjs.org/1.6.2/angular.min.js"></script>
+</head>
+<body>
+
+
+<div ng-app="myApp">
+	<div ng-controller="mainCtrl">
+		{{hello}}
+	</div>
+
+	<div ng-controller="userCtrl" ng-show="toto">
+			{{user.details.id}}
+	</div>
+
+
+
+	<cars-list></cars-list>
+
+</div>
+
+
+
+<script src="app.js"></script>
+<script src="components/cars.component.js"></script>
+<script src="controllers/cars.controller.js"></script>
+</body>
+</html>

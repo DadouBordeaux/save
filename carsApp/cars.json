@@ -1,0 +1,18 @@
+[{
+	"id": "1",
+	"Name": "Renault",
+	"Color": "red",
+	"Price": 10000
+},
+{
+	"id": "2",
+	"Name": "Peugeot",
+	"Color": "blue",
+	"Price": 11500
+},
+{
+	"id": "3",
+	"Name": "Chrysler",
+	"Color": "yellow",
+	"Price": 20000
+}]
